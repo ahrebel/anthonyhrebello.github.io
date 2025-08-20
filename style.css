@@ -25,10 +25,14 @@ nav {
 }
 
 nav .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #2c2824;
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 2rem; /* Adjust this to make the logo bigger or smaller */
+    width: auto;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
 }
 
 nav ul {
@@ -253,14 +257,14 @@ ul.projects li {
     border-radius: 8px;
 }
 
-/* Dynamic footer styles */
+/* Updated footer styles - slightly larger */
 .footer {
     position: relative;
     overflow: hidden;
     background-color: #001122;
     color: #ffffff;
-    padding: 1rem 2rem;
-    font-size: 0.875rem;
+    padding: 1.5rem 2rem; /* Increased from 1rem */
+    font-size: 1rem; /* Increased from 0.875rem */
 }
 
 .footer-content {
@@ -308,13 +312,14 @@ ul.projects li {
     }
 }
 
-/* Ensure footer links still work properly */
+/* Ensure footer links are also slightly larger */
 .footer-content a {
     color: #ffffff;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 1.25rem; /* Increased from 1rem */
     position: relative;
     z-index: 3;
+    font-size: 1rem; /* Ensure consistent size */
 }
 
 .footer-content a:hover {
