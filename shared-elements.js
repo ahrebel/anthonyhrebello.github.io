@@ -1,9 +1,11 @@
 // shared-elements.js - Include this on all pages for navigation and footer
 document.addEventListener('DOMContentLoaded', function() {
-    // Navigation HTML
+    // Navigation HTML with logo image
     const navHTML = `
         <nav>
-            <div class="logo">Anthony Rebello</div>
+            <div class="logo">
+                <img src="assets/R.png" alt="Anthony Rebello">
+            </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Research Projects</a></li>
@@ -13,12 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
         </nav>
     `;
     
-    // Footer HTML with dynamic dots
+    // Footer HTML
     const footerHTML = `
         <footer class="footer">
             <div class="footer-dots"></div>
             <div class="footer-content">
-                <div>© ${new Date().getFullYear()} Anthony Rebello </div>
+                <div>© ${new Date().getFullYear()} Anthony Rebello</div>
                 <div>
                     <a href="https://www.instagram.com/anthonyhrebello" target="_blank" rel="noopener">Instagram</a>
                     <a href="https://www.linkedin.com/in/anthonyhrebello/" target="_blank" rel="noopener">LinkedIn</a>
