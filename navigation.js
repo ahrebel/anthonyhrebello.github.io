@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Research Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="ResumeAug2025.pdf">Resume</a></li>
+                <li><a href="ResumeAug2025.pdf" target="_blank">Resume</a></li>
             </ul>
         </nav>
     `;
