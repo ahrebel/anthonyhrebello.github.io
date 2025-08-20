@@ -1,6 +1,5 @@
 /*
   Basic styling for Anthony Rebello's personal site.
-  Inspired by the original Framer design but simplified and static.
 */
 
 /* Global resets and typography */
@@ -86,7 +85,9 @@ nav a:hover {
 }
 
 .hero .image img {
-    max-width: 100%;
+    max-width: 400px; 
+    width: 100%;     
+    height: auto;      
     border-radius: 12px;
     display: block;
 }
@@ -228,8 +229,8 @@ ul.projects li {
 }
 
 .image img {
-  max-width: 250px;   /* never gets bigger than 250px */
-  width: 100%;        /* scales down with the container */
-  height: auto;       /* keeps proportions */
-  border-radius: 8px; /* optional: gives rounded corners */
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
