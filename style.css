@@ -19,16 +19,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: linear-gradient(135deg, #2c5aa0 0%, #1e3a5f 50%, #001122 100%);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #d4b896 0%, #c4a574 50%, #b8956b 100%);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    color: #2c2824;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
 }
 
 nav ul {
@@ -44,7 +44,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: #2c2824;
     font-size: 1rem;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -54,7 +54,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(44, 40, 36, 0.15);
     transform: translateY(-1px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -65,8 +65,8 @@ nav a:hover {
     flex-wrap: wrap;
     align-items: center;
     padding: 2rem 2rem; /* Reduced from 4rem */
-    background: linear-gradient(135deg, #f9fafc 0%, #e8f2ff 100%);
-    border-bottom: 1px solid #e0e8f0;
+    background: linear-gradient(135deg, #f9f7f4 0%, #f2ede6 100%);
+    border-bottom: 1px solid #e6ddc9;
 }
 
 .hero .text {
@@ -78,7 +78,7 @@ nav a:hover {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    background: linear-gradient(135deg, #2c5aa0, #1e3a5f);
+    background: linear-gradient(135deg, #b8956b, #a08660);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -87,7 +87,7 @@ nav a:hover {
 .hero .text h2 {
     font-size: 1.5rem;
     font-weight: 500;
-    color: #5a6b7d;
+    color: #7a6e5f;
     margin-top: 0;
     margin-bottom: 1.5rem;
 }
@@ -103,8 +103,8 @@ nav a:hover {
     height: auto;
     border-radius: 12px;
     display: block;
-    box-shadow: 0 8px 25px rgba(44, 90, 160, 0.15);
-    border: 3px solid rgba(44, 90, 160, 0.1);
+    box-shadow: 0 8px 25px rgba(184, 149, 107, 0.25);
+    border: 3px solid rgba(184, 149, 107, 0.2);
 }
 
 /* Section styles - Reduced top padding */
@@ -116,7 +116,7 @@ nav a:hover {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #1e3a5f;
+    color: #8b7355;
     position: relative;
 }
 
@@ -127,12 +127,12 @@ nav a:hover {
     left: 0;
     width: 60px;
     height: 3px;
-    background: linear-gradient(135deg, #2c5aa0, #4a90e2);
+    background: linear-gradient(135deg, #b8956b, #d4b896);
     border-radius: 2px;
 }
 
 .section h3 {
-    color: #2c5aa0;
+    color: #a08660;
     font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -149,20 +149,20 @@ nav a:hover {
 .button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: linear-gradient(135deg, #2c5aa0, #4a90e2);
-    color: #ffffff;
+    background: linear-gradient(135deg, #b8956b, #d4b896);
+    color: #2c2824;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 600;
     margin-top: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(44, 90, 160, 0.3);
+    box-shadow: 0 4px 15px rgba(184, 149, 107, 0.4);
 }
 
 .button:hover {
-    background: linear-gradient(135deg, #1e3a5f, #2c5aa0);
+    background: linear-gradient(135deg, #a08660, #b8956b);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(44, 90, 160, 0.4);
+    box-shadow: 0 6px 20px rgba(184, 149, 107, 0.5);
 }
 
 /* Research and projects lists */
@@ -229,21 +229,21 @@ ul.projects li {
 .contact-container button {
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background: linear-gradient(135deg, #2c5aa0, #4a90e2);
-    color: #ffffff;
+    background: linear-gradient(135deg, #b8956b, #d4b896);
+    color: #2c2824;
     border: none;
     border-radius: 6px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(44, 90, 160, 0.3);
+    box-shadow: 0 4px 15px rgba(184, 149, 107, 0.4);
 }
 
 .contact-container button:hover {
-    background: linear-gradient(135deg, #1e3a5f, #2c5aa0);
+    background: linear-gradient(135deg, #a08660, #b8956b);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(44, 90, 160, 0.4);
+    box-shadow: 0 6px 20px rgba(184, 149, 107, 0.5);
 }
 
 .image img {
