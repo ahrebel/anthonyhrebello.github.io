@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <footer class="footer">
             <div class="footer-dots"></div>
             <div class="footer-content">
-                <div>© ${new Date().getFullYear()} Anthony Rebello</div>
+                <div>© ${new Date().getFullYear()} Anthony Rebello </div>
                 <div>
                     <a href="https://www.instagram.com/anthonyhrebello" target="_blank" rel="noopener">Instagram</a>
                     <a href="https://www.linkedin.com/in/anthonyhrebello/" target="_blank" rel="noopener">LinkedIn</a>
